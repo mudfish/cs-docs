@@ -1,16 +1,29 @@
+* 计算机科学
+    * [计算机基础](/cs/cs.md)
+    * [网络与安全](/cs/network.md)
+    * [数据结构与算法](/cs/dsa.md)
+    * [人工智能入门](/cs/ai.md)
 * 系统运维
-    * [Linux运维](/)
-* Java技术
-    * [Java核心](/java/README.md)
-    * [Spring框架](/java/spring/)
-    * [Springboot](/java/spring-boot/)
-* Python技术
+    * [Linux运维](/devops/linux.md)
+    * [站点运维](/devops/website.md)
+* 后端技术
+    * [Java核心](/java/java.md)
+    * [Spring框架](/java/spring.md)
+    * [Springboot](/java/spring-boot.md)
+    * [微服务](/java/microservice.md)
+    * [Python核心](/python/python.md)
+* 前端技术
+    * [Nodejs](/web/node.md)
+    * [Vue实战](/web/vue.md)
+    * [小程序实战](/web/wx.md)
+    * [App实战](/web/app.md)
 * 数据库技术
-    * [Oracle](/db/)
-    * [MySQL](/db/mysql/)
-    * [Postgresql](/db/pg/)
+    * [Oracle](/db/oracle.md)
+    * [MySQL](/db/mysql.md)
+    * [Postgresql](/db/pg.md)
 * 工具组件
-    * [MyBatis](/tools/)
-    * [Redis](/tools/redis/)
-    * [ElasticSearch](/tools/elasticsearch/)
+    * [Docker](/tools/docker.md)
+    * [MyBatis](/tools/mybatis.md)
+    * [Redis](/tools/redis.md)
+    * [ElasticSearch](/tools/es.md)
     * [Git](/tools/git.md)

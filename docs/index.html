@@ -8,16 +8,15 @@
     <meta name="viewport"
       content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <!-- 设置浏览器图标 -->
-    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="/favicon.ico"/>
     <link rel="stylesheet"
       href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
   </head>
   <body>
-    <nav>
+    <!-- <nav>
       <a href="#/">LeetCode 题解</a>
       <a href="https://codegen.top" target="_blank">我的博客</a>
-    </nav>
+    </nav> -->
     <div id="app">Loading...</div>
     <script>
     window.$docsify = {
@@ -49,7 +48,22 @@
             crossChapterText: true,
       }
 	}
+
   
+ </script>
+  <!-- 回到顶部功能 -->
+ <script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/jquery.js"></script>
+ <script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/jquery.goup.js"></script>
+ <script type="text/javascript">
+   $(document).ready(function () {
+     $.goup({
+       trigger: 100,
+       bottomOffset: 52,
+       locationOffset: 25,
+       //title: 'TOP',
+       titleAsText: true
+     });
+   });
   </script>
     <!-- Docsify v4 -->
     <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
@@ -65,5 +79,21 @@
     <!-- 链接上下篇文章 -->
     <script
       src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+    <!-- 代码高亮 -->
+    <!-- 代码高亮 -->
+    <script
+      src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+    <script
+      src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-c.min.js"></script>
+    <script
+      src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-json.min.js"></script>
+    <script
+      src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-shell-session.min.js"></script>
+    <script
+      src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>
+    <script
+      src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-http.min.js"></script>
+    <script
+      src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-java.min.js"></script>
   </body>
 </html>
