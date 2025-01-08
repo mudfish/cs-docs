@@ -8,6 +8,7 @@ https://github.com/UCE-group/CS-resources/blob/master/%E8%AE%A1%E7%AE%97%E6%9C%B
 
 ## 入门01 整体介绍
 1. 什么是计算机
+
 2.计算机的发展史
 3. 计算机分类
 4. 计算机用途
@@ -49,6 +50,8 @@ DDOS攻击
 # 入门08：数据库应用
 # 入门09：Linux系统入门
 # 入门10：Web开发技术
+# 入门11：人工智能的发展
 # 实训：
-
+## 打字练习
+[https://www.hellotyping.com/](https://www.hellotyping.com/)
 

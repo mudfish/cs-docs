@@ -21,6 +21,11 @@ unzip -o file.zip
 ```bash
 find /home/aaa -type f -name "*.png" -exec cp \{\} /home/bbb \;
 ```
+- 复制文件 排除指定文件夹
+```bash
+cd /home/data
+rsync -av --exclude 'excluded_folder/' source/ destination/
+```
 # 问题处理
 ## 文件名最大长度
 255字符，86汉字
